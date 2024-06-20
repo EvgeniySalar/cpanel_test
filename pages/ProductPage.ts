@@ -22,4 +22,7 @@ export class ProductPage {
   async emptyField() {
     await this.page.click('  //*[@class="secondary-cart-sidebar"]');
   }
+  async emptysField() {
+    await this.page.click('  //*[@class="secondary-cart-sidebar"]');
+  }
 }
